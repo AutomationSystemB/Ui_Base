@@ -1,0 +1,91 @@
+<?xml version="1.0" standalone="yes"?>
+<Cylinders>
+  <xs:schema id="Cylinders" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Cylinders" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TableCylinders">
+            <xs:complexType>
+              <xs:sequence>
+				<xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="InHomeIdx" type="xs:string" minOccurs="0" />
+                <xs:element name="InWorkIdx" type="xs:string" minOccurs="0" />
+                <xs:element name="OutHomeIdx" type="xs:string" minOccurs="0" />
+                <xs:element name="OutWorkIdx" type="xs:string" minOccurs="0" />
+                <xs:element name="Timeout" type="xs:string" minOccurs="0" />
+				<xs:element name="ConfigType" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TableCylinders>
+	<Name>Block_CT</Name>
+    <InHomeIdx>9</InHomeIdx>
+    <InWorkIdx>8</InWorkIdx>
+    <OutHomeIdx>5</OutHomeIdx>
+    <OutWorkIdx>4</OutWorkIdx>
+    <Timeout>5000</Timeout>
+	<ConfigType>1</ConfigType>
+  </TableCylinders> 
+  
+  <TableCylinders>
+	<Name>Block_UP_Down</Name>
+    <InHomeIdx>11</InHomeIdx>
+    <InWorkIdx>10</InWorkIdx>
+    <OutHomeIdx>7</OutHomeIdx>
+    <OutWorkIdx>6</OutWorkIdx>
+    <Timeout>5000</Timeout>
+	<ConfigType>2</ConfigType>
+  </TableCylinders>
+  
+  <TableCylinders>
+	<Name>Block_UP_Down</Name>
+    <InHomeIdx>13</InHomeIdx>
+    <InWorkIdx>12</InWorkIdx>
+    <OutHomeIdx>7</OutHomeIdx>
+    <OutWorkIdx>6</OutWorkIdx>
+    <Timeout>5000</Timeout>
+	<ConfigType>2</ConfigType>
+  </TableCylinders>
+  
+	<TableCylinders>
+	<Name>Rotate_L_R</Name>
+	<InHomeIdx>15</InHomeIdx>
+	<InWorkIdx>14</InWorkIdx>
+	<OutHomeIdx>9</OutHomeIdx>
+	<OutWorkIdx>8</OutWorkIdx>
+	<Timeout>5000</Timeout>
+	<ConfigType>2</ConfigType>
+	  </TableCylinders>
+	   <TableCylinders>
+	<Name>Rotate_L_R</Name>
+    <InHomeIdx>17</InHomeIdx>
+    <InWorkIdx>16</InWorkIdx>
+    <OutHomeIdx>9</OutHomeIdx>
+    <OutWorkIdx>8</OutWorkIdx>
+    <Timeout>5000</Timeout>
+	<ConfigType>2</ConfigType>
+  </TableCylinders>
+    <TableCylinders>
+	<Name>Conector_J1_J2_J3_J4</Name>
+    <InHomeIdx>19</InHomeIdx>
+    <InWorkIdx>18</InWorkIdx>
+    <OutHomeIdx>11</OutHomeIdx>
+    <OutWorkIdx>10</OutWorkIdx>
+    <Timeout>5000</Timeout>
+	<ConfigType>2</ConfigType>
+  </TableCylinders>
+  <TableCylinders>
+	<Name>Conector_J1_J2_J3_J4</Name>
+    <InHomeIdx>21</InHomeIdx>
+    <InWorkIdx>20</InWorkIdx>
+    <OutHomeIdx>11</OutHomeIdx>
+    <OutWorkIdx>10</OutWorkIdx>
+    <Timeout>5000</Timeout>
+	<ConfigType>2</ConfigType>
+  </TableCylinders>
+   
+</Cylinders>

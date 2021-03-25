@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="HamburgerMenu.Views.AboutView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HamburgerMenu.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight = "800" 
+             d:DesignWidth  = "1009" 
+             >
+    <DockPanel>
+
+        <TextBlock DockPanel.Dock="Top"
+                   Text="About View"
+                   FontSize="32"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center" Margin="0,204,0,203"
+               />
+        <Image
+            DockPanel.Dock="Bottom"
+            VerticalAlignment="Bottom" 
+            HorizontalAlignment="Stretch"
+            Source="/HamburgerMenu;component/Resources/Banner.png"
+            />
+
+    </DockPanel>
+</UserControl>

@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<Scanners>
+  <xs:schema id="Scanners" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Scanners" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TableScanners">
+            <xs:complexType>
+              <xs:sequence>
+				<xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="IP" type="xs:string" minOccurs="0" />
+                <xs:element name="Port" type="xs:string" minOccurs="0" />
+                <xs:element name="ComPort" type="xs:string" minOccurs="0" />
+				<xs:element name="BaudRate" type="xs:string" minOccurs="0" />
+				<xs:element name="StopBits" type="xs:string" minOccurs="0" />
+				<xs:element name="DataBits" type="xs:string" minOccurs="0" />
+				<xs:element name="Parity" type="xs:string" minOccurs="0" />
+				<xs:element name="Handler" type="xs:string" minOccurs="0" />
+				<xs:element name="Trigger" type="xs:string" minOccurs="0" />
+                <xs:element name="Timeout" type="xs:string" minOccurs="0" />
+				<xs:element name="ConfigType" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  
+  <TableScanners>
+	<Name>ScannerIN</Name>
+    <IP>0</IP>
+    <Port>0</Port>
+	<ComPort>com14</ComPort>
+	<BaudRate>115200</BaudRate>
+	<StopBits>1</StopBits>
+	<DataBits>8</DataBits>
+	<Parity>0</Parity>
+	<Handler>0</Handler>
+	<Trigger>TRG</Trigger>
+    <Timeout>5000</Timeout>
+	<ConfigType>1</ConfigType>
+  </TableScanners> 
+  
+</Scanners>

@@ -1,0 +1,1155 @@
+<?xml version="1.0" standalone="yes"?>
+<IO_560>
+  <IO>
+    <IOName>Safety_Circuit_OK</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>0</IOAddress>
+    <IOText>Safety_Circuit_OK</IOText>
+    <IOTag>I0.0</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Air_Pressure</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>1</IOAddress>
+    <IOText>Air_Pressure</IOText>
+    <IOTag>I0.1</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Safety_Barrier_OK_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>2</IOAddress>
+    <IOText>Safety_Barrier_OK_FC</IOText>
+    <IOTag>I0.2</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Safety_Barrier_OK_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>3</IOAddress>
+    <IOText>Safety_Barrier_OK_LC</IOText>
+    <IOTag>I0.3</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Man_Door_Open_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>4</IOAddress>
+    <IOText>Man_Door_Open_FC</IOText>
+    <IOTag>I0.4</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Man_Door_Open_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>5</IOAddress>
+    <IOText>Man_Door_Open_LC</IOText>
+    <IOTag>I0.5</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Button_Machine_Light</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>6</IOAddress>
+    <IOText>Button_Machine_Light</IOText>
+    <IOTag>I0.6</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Button_Abastecer</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>7</IOAddress>
+    <IOText>Button_Abastecer</IOText>
+    <IOTag>I0.7</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Button_OK_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>8</IOAddress>
+    <IOText>Button_OK_FC</IOText>
+    <IOTag>I1.0</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Button_NOK_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>9</IOAddress>
+    <IOText>Button_NOK_FC</IOText>
+    <IOTag>I1.1</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Button_OK_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>10</IOAddress>
+    <IOText>Button_OK_LC</IOText>
+    <IOTag>I1.2</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Button_NOK_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>11</IOAddress>
+    <IOText>Button_NOK_LC</IOText>
+    <IOTag>I1.3</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Button_Conveyor_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>12</IOAddress>
+    <IOText>Button_Conveyor_LC</IOText>
+    <IOTag>I1.4</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Conveyor_NOK</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>13</IOAddress>
+    <IOText>Conveyor_NOK</IOText>
+    <IOTag>I1.5</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>14</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>I1.6</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>15</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>I1.7</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Det_Part_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>16</IOAddress>
+    <IOText>Det_Part_LC</IOText>
+    <IOTag>I2.0</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Det_Part_Hight_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>17</IOAddress>
+    <IOText>Det_Part_Hight_LC</IOText>
+    <IOTag>I2.1</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Det_Part_Pos_Int_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>18</IOAddress>
+    <IOText>Det_Part_Pos_Int_LC</IOText>
+    <IOTag>I2.2</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Det_Part_Pos_Inf_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>19</IOAddress>
+    <IOText>Det_Part_Pos_Inf_LC</IOText>
+    <IOTag>I2.3</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Det_Part_Conveyor_Begin_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>20</IOAddress>
+    <IOText>Det_Part_Conveyor_Begin_LC</IOText>
+    <IOTag>I2.4</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Det_Part_Conveyor_End_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>21</IOAddress>
+    <IOText>Det_Part_Conveyor_End_LC</IOText>
+    <IOTag>I2.5</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Elevation_H_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>22</IOAddress>
+    <IOText>Cyl_Elevation_H_LC</IOText>
+    <IOTag>I2.6</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Elevation_W_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>23</IOAddress>
+    <IOText>Cyl_Elevation_W_LC</IOText>
+    <IOTag>I2.7</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Det_Part_L_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>24</IOAddress>
+    <IOText>Det_Part_L_FC</IOText>
+    <IOTag>I3.0</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Det_Part_R_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>25</IOAddress>
+    <IOText>Det_Part_R_FC</IOText>
+    <IOTag>I3.1</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Lock_Part_H_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>26</IOAddress>
+    <IOText>Cyl_Lock_Part_H_FC</IOText>
+    <IOTag>I3.2</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Lock_Part_W_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>27</IOAddress>
+    <IOText>Cyl_Lock_Part_W_FC</IOText>
+    <IOTag>I3.3</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>28</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>I3.4</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>29</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>I3.5</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Elevation_H_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>30</IOAddress>
+    <IOText>Cyl_Elevation_H_FC</IOText>
+    <IOTag>I3.6</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Elevation_W_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>31</IOAddress>
+    <IOText>Cyl_Elevation_W_FC</IOText>
+    <IOTag>I3.7</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Plate_H_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>32</IOAddress>
+    <IOText>Cyl_Plate_H_LC</IOText>
+    <IOTag>I4.0</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Plate_W_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>33</IOAddress>
+    <IOText>Cyl_Plate_W_LC</IOText>
+    <IOTag>I4.1</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov_H_Insertion_H_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>34</IOAddress>
+    <IOText>Cyl_Mov_H_Insertion_H_LC</IOText>
+    <IOTag>I4.2</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov_H_Insertion_W_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>35</IOAddress>
+    <IOText>Cyl_Mov_H_Insertion_W_LC</IOText>
+    <IOTag>I4.3</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov_V_Insertion_H_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>36</IOAddress>
+    <IOText>Cyl_Mov_V_Insertion_H_LC</IOText>
+    <IOTag>I4.4</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov_V_Insertion_W_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>37</IOAddress>
+    <IOText>Cyl_Mov_V_Insertion_W_LC</IOText>
+    <IOTag>I4.5</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Rejection_Box_H_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>38</IOAddress>
+    <IOText>Cyl_Rejection_Box_H_LC</IOText>
+    <IOTag>I4.6</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Rejection_Box_W_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>39</IOAddress>
+    <IOText>Cyl_Rejection_Box_W_LC</IOText>
+    <IOTag>I4.7</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Plate_H_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>40</IOAddress>
+    <IOText>Cyl_Plate_H_FC</IOText>
+    <IOTag>I5.0</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Plate_W_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>41</IOAddress>
+    <IOText>Cyl_Plate_W_FC</IOText>
+    <IOTag>I5.1</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov_H_Insertion_H_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>42</IOAddress>
+    <IOText>Cyl_Mov_H_Insertion_H_FC</IOText>
+    <IOTag>I5.2</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov_H_Insertion_W_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>43</IOAddress>
+    <IOText>Cyl_Mov_H_Insertion_W_FC</IOText>
+    <IOTag>I5.3</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov_V_Insertion_H_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>44</IOAddress>
+    <IOText>Cyl_Mov_V_Insertion_H_FC</IOText>
+    <IOTag>I5.4</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov_V_Insertion_W_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>45</IOAddress>
+    <IOText>Cyl_Mov_V_Insertion_W_FC</IOText>
+    <IOTag>I5.5</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Rejection_Box_H_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>46</IOAddress>
+    <IOText>Cyl_Rejection_Box_H_FC</IOText>
+    <IOTag>I5.6</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Rejection_Box_W_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>47</IOAddress>
+    <IOText>Cyl_Rejection_Box_W_FC</IOText>
+    <IOTag>I5.7</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov1_V_Potis_H_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>48</IOAddress>
+    <IOText>Cyl_Mov1_V_Potis_H_LC</IOText>
+    <IOTag>I6.0</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov1_V_Potis_W_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>49</IOAddress>
+    <IOText>Cyl_Mov1_V_Potis_W_LC</IOText>
+    <IOTag>I6.1</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov2_V_Potis_H_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>50</IOAddress>
+    <IOText>Cyl_Mov2_V_Potis_H_LC</IOText>
+    <IOTag>I6.2</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov2_V_Potis_W_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>51</IOAddress>
+    <IOText>Cyl_Mov2_V_Potis_W_LC</IOText>
+    <IOTag>I6.3</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov1_V_Potis_H_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>52</IOAddress>
+    <IOText>Cyl_Mov1_V_Potis_H_FC</IOText>
+    <IOTag>I6.4</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Cyl_Mov1_V_Potis_W_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>53</IOAddress>
+    <IOText>Cyl_Mov1_V_Potis_W_FC</IOText>
+    <IOTag>I6.5</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>54</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>I6.6</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Feeder_Part_F_Part_Buffer_B_Out</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>55</IOAddress>
+    <IOText>Feeder_Part_F_Part_Buffer_B_Out</IOText>
+    <IOTag>I6.7</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Feeder_Part_F_Active_Ch1</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>56</IOAddress>
+    <IOText>Feeder_Part_F_Active_Ch1</IOText>
+    <IOTag>I7.0</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Feeder_Part_F_Active_Ch2</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>57</IOAddress>
+    <IOText>Feeder_Part_F_Active_Ch2</IOText>
+    <IOTag>I7.1</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Feeder_Part_F_Active_Ch3</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>58</IOAddress>
+    <IOText>Feeder_Part_F_Active_Ch3</IOText>
+    <IOTag>I7.2</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Feeder_Part_F_Ready</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>59</IOAddress>
+    <IOText>Feeder_Part_F_Ready</IOText>
+    <IOTag>I7.3</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Feeder_Part_F_Part_Ready</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>60</IOAddress>
+    <IOText>Feeder_Part_F_Part_Ready</IOText>
+    <IOTag>I7.4</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Feeder_Part_F_Part_Buffer_A_Out</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>61</IOAddress>
+    <IOText>Feeder_Part_F_Part_Buffer_A_Out</IOText>
+    <IOTag>I7.5</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Rejection_Door_Close_FC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>62</IOAddress>
+    <IOText>Rejection_Door_Close_FC</IOText>
+    <IOTag>I7.6</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Rejection_Door_Close_LC</IOName>
+    <IOType>DI</IOType>
+    <IOAddress>63</IOAddress>
+    <IOText>Rejection_Door_Close_LC</IOText>
+    <IOTag>I7.7</IOTag>
+    <ModuleType>Omron [NX-ID5442]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Safety_Relay_On</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>0</IOAddress>
+    <IOText>Safety_Relay_On</IOText>
+    <IOTag>Q0.0</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Relay_Machine_Light</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>1</IOAddress>
+    <IOText>Relay_Machine_Light</IOText>
+    <IOTag>Q0.1</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Safety_Barrier_Reset_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>2</IOAddress>
+    <IOText>Safety_Barrier_Reset_FC</IOText>
+    <IOTag>Q0.2</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Safety_Barrier_Reset_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>3</IOAddress>
+    <IOText>Safety_Barrier_Reset_LC</IOText>
+    <IOTag>Q0.3</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Signal_Tower_GN</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>4</IOAddress>
+    <IOText>Signal_Tower_GN</IOText>
+    <IOTag>Q0.4</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Signal_Tower_YE</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>5</IOAddress>
+    <IOText>Signal_Tower_YE</IOText>
+    <IOTag>Q0.5</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Signal_Tower_RD</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>6</IOAddress>
+    <IOText>Signal_Tower_RD</IOText>
+    <IOTag>Q0.6</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Signal_Tower_BU_Signal_Abastecer</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>7</IOAddress>
+    <IOText>Signal_Tower_BU_Signal_Abastecer</IOText>
+    <IOTag>Q0.7</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>8</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q1.0</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>9</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q1.1</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>10</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q1.2</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>11</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q1.3</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>12</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q1.4</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>13</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q1.5</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>14</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q1.6</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>15</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q1.7</IOTag>
+    <ModuleType>Omron [NX1P2-9024DT1] 14DI/10DO</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Signal_OK(In1)_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>16</IOAddress>
+    <IOText>Signal_OK(In1)_FC</IOText>
+    <IOTag>Q2.0</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Signal_NOK(In2)_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>17</IOAddress>
+    <IOText>Signal_NOK(In2)_FC</IOText>
+    <IOTag>Q2.1</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Signal_OK(In1)_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>18</IOAddress>
+    <IOText>Signal_OK(In1)_LC</IOText>
+    <IOTag>Q2.2</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Signal_NOK(In2)_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>19</IOAddress>
+    <IOText>Signal_NOK(In2)_LC</IOText>
+    <IOTag>Q2.3</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Signal_OK_NOK(In2_In1)_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>20</IOAddress>
+    <IOText>Signal_OK_NOK(In2_In1)_FC</IOText>
+    <IOTag>Q2.4</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Signal_OK_NOK(In2_In1)_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>21</IOAddress>
+    <IOText>Signal_OK_NOK(In2_In1)_LC</IOText>
+    <IOTag>Q2.5</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>22</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q2.6</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>23</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q2.7</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Conveyor_On</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>24</IOAddress>
+    <IOText>Conveyor_On</IOText>
+    <IOTag>Q3.0</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Feeder_Part_F_Release_Ch1</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>25</IOAddress>
+    <IOText>Feeder_Part_F_Release_Ch1</IOText>
+    <IOTag>Q3.1</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Feeder_Part_F_Release_Ch2</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>26</IOAddress>
+    <IOText>Feeder_Part_F_Release_Ch2</IOText>
+    <IOTag>Q3.2</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Feeder_Part_F_Release_Ch3</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>27</IOAddress>
+    <IOText>Feeder_Part_F_Release_Ch3</IOText>
+    <IOTag>Q3.3</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>28</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q3.4</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>29</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q3.5</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>30</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q3.6</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>31</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q3.7</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>32</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q4.0</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>33</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q4.1</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>34</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q4.2</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>35</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q4.3</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>36</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q4.4</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Lock_Part_W_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>37</IOAddress>
+    <IOText>Sol_Cyl_Lock_Part_W_FC</IOText>
+    <IOTag>Q4.5</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Plate_W_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>38</IOAddress>
+    <IOText>Sol_Cyl_Plate_W_LC</IOText>
+    <IOTag>Q4.6</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Mov_H_Insertion_W_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>39</IOAddress>
+    <IOText>Sol_Cyl_Mov_H_Insertion_W_LC</IOText>
+    <IOTag>Q4.7</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Mov_H_Insertion_H_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>40</IOAddress>
+    <IOText>Sol_Cyl_Mov_H_Insertion_H_LC</IOText>
+    <IOTag>Q5.0</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Mov_V_Insertion_W_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>41</IOAddress>
+    <IOText>Sol_Cyl_Mov_V_Insertion_W_LC</IOText>
+    <IOTag>Q5.1</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Plate_W_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>42</IOAddress>
+    <IOText>Sol_Cyl_Plate_W_FC</IOText>
+    <IOTag>Q5.2</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Mov_H_Insertion_W_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>43</IOAddress>
+    <IOText>Sol_Cyl_Mov_H_Insertion_W_FC</IOText>
+    <IOTag>Q5.3</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Mov_H_Insertion_H_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>44</IOAddress>
+    <IOText>Sol_Cyl_Mov_H_Insertion_H_FC</IOText>
+    <IOTag>Q5.4</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Mov_V_Insertion_W_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>45</IOAddress>
+    <IOText>Sol_Cyl_Mov_V_Insertion_W_FC</IOText>
+    <IOTag>Q5.5</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Mov_W_Potis_W_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>46</IOAddress>
+    <IOText>Sol_Cyl_Mov_W_Potis_W_LC</IOText>
+    <IOTag>Q5.6</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Mov_W_Potis_W_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>47</IOAddress>
+    <IOText>Sol_Cyl_Mov_W_Potis_W_FC</IOText>
+    <IOTag>Q5.7</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Rejection_Box_W_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>48</IOAddress>
+    <IOText>Sol_Cyl_Rejection_Box_W_LC</IOText>
+    <IOTag>Q6.0</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Rejection_Box_H_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>49</IOAddress>
+    <IOText>Sol_Cyl_Rejection_Box_H_LC</IOText>
+    <IOTag>Q6.1</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Elevation_W_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>50</IOAddress>
+    <IOText>Sol_Cyl_Elevation_W_LC</IOText>
+    <IOTag>Q6.2</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Elevation_H_LC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>51</IOAddress>
+    <IOText>Sol_Cyl_Elevation_H_LC</IOText>
+    <IOTag>Q6.3</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>52</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q6.4</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>53</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q6.5</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>54</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q6.6</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>55</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q6.7</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>56</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q7.0</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>57</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q7.1</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>58</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q7.2</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>59</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q7.3</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>60</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q7.4</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>61</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q7.5</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>62</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q7.6</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>63</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q7.7</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Rejection_Box_W_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>64</IOAddress>
+    <IOText>Sol_Cyl_Rejection_Box_W_FC</IOText>
+    <IOTag>Q8.0</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Rejection_Box_H_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>65</IOAddress>
+    <IOText>Sol_Cyl_Rejection_Box_H_FC</IOText>
+    <IOTag>Q8.1</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Elevation_W_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>66</IOAddress>
+    <IOText>Sol_Cyl_Elevation_W_FC</IOText>
+    <IOTag>Q8.2</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Sol_Cyl_Elevation_H_FC</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>67</IOAddress>
+    <IOText>Sol_Cyl_Elevation_H_FC</IOText>
+    <IOTag>Q8.3</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>68</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q8.4</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>69</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q8.5</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>70</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q8.6</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>71</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q8.7</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>72</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q9.0</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>73</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q9.1</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>74</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q9.2</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>75</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q9.3</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>76</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q9.4</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>77</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q9.5</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>78</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q9.6</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+  <IO>
+    <IOName>Reserve</IOName>
+    <IOType>DO</IOType>
+    <IOAddress>79</IOAddress>
+    <IOText>Reserve</IOText>
+    <IOTag>Q9.7</IOTag>
+    <ModuleType>Omron [NX-OD5256]</ModuleType>
+  </IO>
+</IO_560>

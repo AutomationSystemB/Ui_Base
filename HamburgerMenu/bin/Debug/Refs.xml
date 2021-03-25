@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ID>1</ID>
+    <PN_Visteon>VPL3DF-18K810-XCE</PN_Visteon>
+    <PN_Customer>M8E2-10F920-AB</PN_Customer>
+    <Line>RICM</Line>
+    <End_Item>JBAA</End_Item>
+    <MainBoard>Q3E</MainBoard>
+    <Params_ID>001</Params_ID>
+    <Description>Nao colocar FAN, Espera PCB</Description>
+  </Table>
+  <Table>
+    <ID>2</ID>
+    <PN_Visteon>VPL3DF-18K810-ZCE</PN_Visteon>
+    <PN_Customer>M9R3-10F920-AB</PN_Customer>
+    <Line>RICM</Line>
+    <End_Item>JBAB</End_Item>
+    <MainBoard>Q3I</MainBoard>
+    <Params_ID>002</Params_ID>
+    <Description>Colocar FAN e PCB</Description>
+  </Table>
+</NewDataSet>

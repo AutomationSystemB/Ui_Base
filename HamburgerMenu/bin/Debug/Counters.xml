@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Table>
+    <ID>0</ID>
+    <Counter>TotalPecas</Counter>
+    <Value>0</Value>
+    <Param_Id>001</Param_Id>
+  </Table>
+  <Table>
+    <ID>1</ID>
+    <Counter>ContadorDIa</Counter>
+    <Value>0</Value>
+    <Param_Id>001</Param_Id>
+  </Table>
+</DocumentElement>

@@ -1,0 +1,506 @@
+﻿<UserControl x:Class        = "HamburgerMenu.Views.AutomaticView"
+             xmlns          = "http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x        = "http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc       = "http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d        = "http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:wfi="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+             xmlns:winForms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+             xmlns:local    ="clr-namespace:HamburgerMenu.Views"
+             mc:Ignorable   = "d" 
+             d:DesignHeight = "800" 
+             d:DesignWidth  = "1009" Loaded="UserControl_Loaded" 
+             >
+    <DockPanel>
+        <Image
+            DockPanel.Dock      = "Bottom"
+            VerticalAlignment   = "Bottom" 
+            HorizontalAlignment = "Stretch"
+            Source              = "/HamburgerMenu;component/Resources/Banner.png" 
+            />
+        <Grid
+            DockPanel.Dock      = "Left"
+            HorizontalAlignment = "Stretch"
+            VerticalAlignment   = "Stretch"
+            MinWidth            = "200"
+            MaxWidth            = "350"
+            >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width = "0.05*"/>
+                <ColumnDefinition Width = "1*"/>
+                <ColumnDefinition Width = "0.01*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="0.25*"/>
+                <RowDefinition Height="0.01*"/>
+                <RowDefinition Height="0.25*"/>
+                <RowDefinition Height="0.01*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.55*"/>
+            </Grid.RowDefinitions>
+            <Grid
+                Grid.Column = "1"
+                Grid.Row    = "6"
+                HorizontalAlignment = "Stretch"
+                VerticalAlignment   = "Stretch"
+                >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width = "0.2*"/>
+                    <ColumnDefinition Width = "0.02*"/>
+                    <ColumnDefinition Width = "0.78*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.2*"/>
+                    <RowDefinition Height="0.02*"/>
+                    <RowDefinition Height="0.2*"/>
+                    <RowDefinition Height="0.02*"/>
+                    <RowDefinition Height="0.2*"/>
+                    <RowDefinition Height="0.02*"/>
+                    <RowDefinition Height="0.2*"/>
+                </Grid.RowDefinitions>
+                <wfi:WindowsFormsHost
+                    Grid.Column         = "0"
+                    Grid.Row            = "4"
+                    MaxHeight                   = "50"
+                    MaxWidth                    = "50"
+                    >
+                    <winForms:PictureBox
+                        x:Name              = "_iMachineState"
+                        >
+                    </winForms:PictureBox>
+                </wfi:WindowsFormsHost>
+                <Label
+                    x:Name                      = "_lMachineState"
+                    Grid.Column                 = "3"
+                    Grid.Row                    = "4"
+                    VerticalContentAlignment    = "Center"
+                    HorizontalContentAlignment  = "Center"
+                    VerticalAlignment           = "Stretch" 
+                    HorizontalAlignment         = "Stretch"
+                    Content                     = "MachineState"
+                    MaxHeight                   = "40"
+                    MaxWidth                    = "200"
+                    />
+                <Image
+                    x:Name                      = "_iComunication"
+                    Grid.Column                 = "0"
+                    Grid.Row                    = "6"
+                    VerticalAlignment           = "Stretch" 
+                    HorizontalAlignment         = "Stretch"
+                    Source                      = "/HamburgerMenu;component/Resources/manual.png" 
+                    Stretch                     = "Fill"
+                    MaxHeight                   = "50"
+                    MaxWidth                    = "50"
+                    />
+                <Label
+                    x:Name                      = "_lComunication"
+                    Grid.Column                 = "3"
+                    Grid.Row                    = "6"
+                    VerticalContentAlignment    = "Center"
+                    HorizontalContentAlignment  = "Center"
+                    VerticalAlignment           = "Stretch" 
+                    HorizontalAlignment         = "Stretch"
+                    Content                     = "ComunicationState"
+                    MaxHeight                   = "40"
+                    MaxWidth                    = "200"
+                    />
+            </Grid>
+            <TextBox
+                x:Name                      = "_tbLogDebug"
+                Grid.Row                    = "5"
+                Grid.Column                 = "1"
+                TextWrapping                = "Wrap" 
+                HorizontalAlignment         = "Stretch"
+                VerticalAlignment           = "Stretch"
+                FontSize                    = "16"
+                HorizontalContentAlignment  = "Center"
+                VerticalContentAlignment    = "Top"
+                MaxHeight                   = "500"
+                MaxWidth                    = "300"
+                IsReadOnly                  = "True"
+                ></TextBox>
+            <Label
+                x:Name                      = "_lSelectRef"
+                Content                     = "Referência"
+                FontWeight                  = "Bold"
+                Grid.Row                    = "0"
+                Grid.Column                 = "1"
+                HorizontalAlignment         = "Stretch"
+                VerticalAlignment           = "Stretch"
+                FontSize                    = "16"
+                HorizontalContentAlignment  = "Center"
+                VerticalContentAlignment    = "Top"
+
+                ></Label>
+            <ComboBox
+                Grid.Row                    = "1"
+                Grid.Column                 = "1"
+                HorizontalAlignment         = "Stretch"
+                VerticalAlignment           = "Stretch"
+                FontSize                    = "16"
+                HorizontalContentAlignment  = "Center"
+                VerticalContentAlignment    = "Center"
+                MaxHeight                   = "50"
+                MaxWidth                    = "350"
+                ></ComboBox>
+        </Grid>
+
+        <Grid
+            DockPanel.Dock      = "Right"
+            HorizontalAlignment = "Stretch"
+            VerticalAlignment   = "Stretch"
+            MinWidth            = "200"
+            MaxWidth            = "350"
+            >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width = "5"/>
+                <ColumnDefinition Width = "1*"/>
+                <ColumnDefinition Width = "5"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"  MinHeight="100" MaxHeight="200"/>
+                <RowDefinition Height="0.01*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.01*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Image
+                Grid.Column         = "1"
+                Grid.Row            = "0"
+                VerticalAlignment   = "Center"
+                HorizontalAlignment = "Center" 
+                Source              = "/HamburgerMenu;component/Resources/VisteonLogo.png" 
+                Stretch             = "Fill"
+                MaxHeight           = "200"
+                MaxWidth            = "200"
+                ></Image>
+            <Grid
+                Grid.Column ="1"
+                Grid.Row    ="2"
+                HorizontalAlignment = "Stretch"
+                VerticalAlignment   = "Stretch"
+                >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.5*"/>
+                    <RowDefinition Height="0.01*"/>
+                    <RowDefinition Height="0.5*"/>
+                    <RowDefinition Height="0.01*"/>
+                    <RowDefinition Height="0.5*"/>
+                    <RowDefinition Height="0.01*"/>
+                    <RowDefinition Height="0.5*"/>
+                </Grid.RowDefinitions>
+                <GroupBox
+                    x:Name                      = "_cbDayCounter"
+                    Header                      = "Contador Diario"
+                    Grid.Column                 = "0"
+                    Grid.Row                    = "0"
+                    HorizontalAlignment         = "Stretch"
+                    VerticalAlignment           = "Stretch"
+                    HorizontalContentAlignment  = "Center"
+                    VerticalContentAlignment    = "Center"
+                    >
+                    <TextBox
+                        x:Name                      = "_tbDayCounter"
+                        TextWrapping                = "Wrap" 
+                        HorizontalAlignment         = "Stretch"
+                        VerticalAlignment           = "Stretch"
+                        FontSize                    = "16"
+                        HorizontalContentAlignment  = "Center"
+                        VerticalContentAlignment    = "Center"
+                        IsReadOnly                  = "True"
+                        MinHeight                   = "20"
+                        ></TextBox>
+                </GroupBox>
+                <GroupBox
+                    x:Name                      = "_cbTotalCounter"
+                    Header                      = "Contador Total"
+                    Grid.Column                 = "0"
+                    Grid.Row                    = "2"
+                    HorizontalAlignment         = "Stretch"
+                    VerticalAlignment           = "Stretch"
+                    HorizontalContentAlignment  = "Center"
+                    VerticalContentAlignment    = "Center"
+                    >
+                    <TextBox
+                        x:Name                      = "_tbTotalCounter"
+                        TextWrapping                = "Wrap" 
+                        HorizontalAlignment         = "Stretch"
+                        VerticalAlignment           = "Stretch"
+                        FontSize                    = "16"
+                        HorizontalContentAlignment  = "Center"
+                        VerticalContentAlignment    = "Center"
+                        IsReadOnly                  = "True"
+                        MinHeight                   = "20"
+                        ></TextBox>
+                </GroupBox>
+            </Grid>
+            <Grid
+                Grid.Column ="1"
+                Grid.Row    ="4"
+                HorizontalAlignment = "Stretch"
+                VerticalAlignment   = "Stretch"
+                >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.5*"/>
+                    <RowDefinition Height="0.01*"/>
+                    <RowDefinition Height="0.5*"/>
+                    <RowDefinition Height="0.01*"/>
+                    <RowDefinition Height="0.5*"/>
+                </Grid.RowDefinitions>
+                <Button
+                    Grid.Column         = "0"
+                    Grid.Row            = "0"
+                    HorizontalAlignment = "Center"
+                    VerticalAlignment   = "Center"
+                    MinWidth            = "200"
+                    MinHeight           = "50"
+                    MaxWidth            = "250"
+                    MaxHeight           = "100"
+                    >
+                    <StackPanel Orientation         = "Horizontal" 
+                                VerticalAlignment   = "Center"
+                                HorizontalAlignment = "Left"
+                                Width               = "200"
+                                Height              = "50"
+                        >
+                        <Grid
+                            HorizontalAlignment = "Stretch"
+                            VerticalAlignment   = "Stretch" 
+                            MinWidth            = "200"
+                            >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width = "0.5*" MaxWidth="50"/>
+                                <ColumnDefinition Width = "10"/>
+                                <ColumnDefinition Width = "0.5*"/>
+                            </Grid.ColumnDefinitions>
+                            
+                            <Image
+                                Grid.Column         = "0"
+                                Source              = "/HamburgerMenu;component/Resources/Play.ico" 
+                                Stretch             = "Fill"
+                                HorizontalAlignment = "Center"
+                                VerticalAlignment   = "Center"
+                                MaxHeight           = "30"
+                                MaxWidth            = "30"
+                            />
+
+                            <TextBlock
+                                Grid.Column         = "3"
+                                x:Name              = "_tbStartButton"
+                                Text                = "Iniciar"
+                                VerticalAlignment   = "Center"
+                                HorizontalAlignment = "Center" 
+                                FontSize            = "16"
+                            >
+                            </TextBlock>
+                        </Grid>
+                    </StackPanel>
+                </Button>
+                <Button
+                    Grid.Column         = "0"
+                    Grid.Row            = "2"
+                    HorizontalAlignment = "Center"
+                    VerticalAlignment   = "Center"
+                    MinWidth            = "200"
+                    MinHeight           = "50"
+                    MaxWidth            = "250"
+                    MaxHeight           = "100"
+                    >
+                    <StackPanel Orientation         = "Horizontal" 
+                                VerticalAlignment   = "Center"
+                                HorizontalAlignment = "Left"
+                                Width               = "200"
+                                Height              = "50"
+                        >
+                        <Grid
+                            HorizontalAlignment = "Stretch"
+                            VerticalAlignment   = "Stretch" 
+                            MinWidth            = "200"
+                            >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width = "0.5*" MaxWidth="50"/>
+                                <ColumnDefinition Width = "10"/>
+                                <ColumnDefinition Width = "0.5*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image
+                                Grid.Column         = "0"
+                                Source              = "/HamburgerMenu;component/Resources/Stop.ico" 
+                                Stretch             = "Fill"
+                                HorizontalAlignment = "Center"
+                                VerticalAlignment   = "Center"
+                                MaxHeight           = "30"
+                                MaxWidth            = "30"
+                            />
+
+                            <TextBlock
+                                Grid.Column         = "3"
+                                x:Name              = "_tbStopButton"
+                                Text                = "Parar"
+                                VerticalAlignment   = "Center"
+                                HorizontalAlignment = "Center" 
+                                FontSize            = "16"
+                            >
+                            </TextBlock>
+                        </Grid>
+                    </StackPanel>
+                </Button>
+                <Button
+                    Grid.Column         = "0"
+                    Grid.Row            = "4"
+                    HorizontalAlignment = "Center"
+                    VerticalAlignment   = "Center"
+                    MinWidth            = "200"
+                    MinHeight           = "50"
+                    MaxWidth            = "250"
+                    MaxHeight           = "100"
+                    >
+                    <StackPanel Orientation         = "Horizontal" 
+                                VerticalAlignment   = "Center"
+                                HorizontalAlignment = "Left"
+                                Width               = "200"
+                                Height              = "50"
+                        >
+                        <Grid
+                            HorizontalAlignment = "Stretch"
+                            VerticalAlignment   = "Stretch" 
+                            MinWidth            = "200"
+                            >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width = "0.5*" MaxWidth="50"/>
+                                <ColumnDefinition Width = "10"/>
+                                <ColumnDefinition Width = "0.5*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image
+                                Grid.Column         = "0"
+                                Source              = "/HamburgerMenu;component/Resources/Home.ico" 
+                                Stretch             = "Fill"
+                                HorizontalAlignment = "Center"
+                                VerticalAlignment   = "Center"
+                                MaxHeight           = "30"
+                                MaxWidth            = "30"
+                            />
+
+                            <TextBlock
+                                Grid.Column         = "3"
+                                x:Name              = "_tbHomePosButton"
+                                Text                = "Posição Inicial"
+                                VerticalAlignment   = "Center"
+                                HorizontalAlignment = "Center" 
+                                FontSize            = "16"
+                            >
+                            </TextBlock>
+                        </Grid>
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Grid>
+
+        <Grid
+            DockPanel.Dock      = "Top"
+            HorizontalAlignment = "Stretch"
+            VerticalAlignment   = "Stretch"
+            MinHeight           = "100"
+            >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.29*"/>
+                <RowDefinition Height="0.01*"/>
+                <RowDefinition Height="0.7*"/>
+            </Grid.RowDefinitions>
+            <Label
+                x:Name      = "_lAlrmes"
+                Grid.Row    = "0"
+                Content     = "Mensagens Alarme"
+                FontSize    = "16"
+                FontWeight  = "Bold"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center" 
+                MaxHeight                   = "150"
+                MaxWidth                    = "800"
+                >
+            </Label>
+            <TextBox
+                x:Name                      = "_tbAlarms"
+                Grid.Row                    = "2"
+                TextWrapping                = "Wrap" 
+                HorizontalAlignment         = "Stretch"
+                VerticalAlignment           = "Stretch"
+                FontSize                    = "16"
+                HorizontalContentAlignment  = "Center"
+                VerticalContentAlignment    = "Center"
+                MaxHeight                   = "150"
+                MaxWidth                    = "800"
+                IsReadOnly                  = "True"
+            />
+        </Grid>
+        
+        <Grid
+            HorizontalAlignment = "Stretch"
+            VerticalAlignment   = "Stretch"
+            >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.01*"/>
+                <RowDefinition Height="0.7*"/>
+                <RowDefinition Height="0.01*"/>
+                <RowDefinition Height="0.28*"/>
+            </Grid.RowDefinitions>
+            <Grid
+                Grid.Row="1"
+                HorizontalAlignment = "Stretch"
+                VerticalAlignment   = "Stretch"
+                >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width = "0.01*"/>
+                    <ColumnDefinition Width = "1*"/>
+                    <ColumnDefinition Width = "0.01*"/>
+                </Grid.ColumnDefinitions>
+                <Image
+                    Grid.Column         = "1"
+                    VerticalAlignment   = "Center"
+                    HorizontalAlignment = "Center" 
+                    Source              = "/HamburgerMenu;component/Resources/Settings.png" 
+                    Stretch             = "Fill"
+                    MaxHeight           = "500"
+                    MaxWidth            = "800"
+                    />
+            </Grid>
+            <Grid
+                Grid.Row="3"
+                HorizontalAlignment = "Stretch"
+                VerticalAlignment   = "Stretch"
+                >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.29*"/>
+                    <RowDefinition Height="0.01*"/>
+                    <RowDefinition Height="0.7*"/>
+                </Grid.RowDefinitions>
+                <Label
+                    x:Name      = "_lUserInfo"
+                    Grid.Row    = "0"
+                    Content     = "Mensagens para Operador"
+                    FontSize    = "16"
+                    FontWeight  = "Bold"
+                    VerticalContentAlignment    = "Center"
+                    HorizontalContentAlignment  = "Center" 
+                    MaxHeight                   = "150"
+                    MaxWidth                    = "800"
+                    >
+                </Label>
+                <TextBox
+                    x:Name                      = "_tbUserInfo"
+                    Grid.Row                    = "2"
+                    TextWrapping                = "Wrap" 
+                    HorizontalAlignment         = "Stretch"
+                    VerticalAlignment           = "Stretch"
+                    FontSize                    = "16"
+                    HorizontalContentAlignment  = "Center"
+                    VerticalContentAlignment    = "Center"
+                    MaxHeight                   ="150"
+                    MaxWidth                    ="800"
+                    IsReadOnly                  = "True"
+                />
+            </Grid>
+        </Grid>
+    </DockPanel>
+</UserControl>

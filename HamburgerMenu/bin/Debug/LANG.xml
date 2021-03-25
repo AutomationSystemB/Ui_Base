@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<LANG>
+  <xs:schema id="LANG" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="LANG" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TableLang">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_Msg" type="xs:string" minOccurs="0" />
+                <xs:element name="Tag" type="xs:string" minOccurs="0" />
+                <xs:element name="PT" type="xs:string" minOccurs="0" />
+                <xs:element name="EN" type="xs:string" minOccurs="0" />
+				<xs:element name="ES" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  
+	<!-- Linguagem para a pagina Login-->
+  <TableLang>
+    <ID_Msg>1</ID_Msg>
+    <Tag>1</Tag>
+    <PT> Selecionar Utilizador  </PT>
+    <EN>  User Selection </EN>
+    <CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>2</ID_Msg>
+    <Tag>2</Tag>
+    <PT>Palavra Chave</PT>
+    <EN>Password</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>3</ID_Msg>
+    <Tag>3</Tag>
+    <PT>Entrar</PT>
+    <EN>Login</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>4</ID_Msg>
+    <Tag>4</Tag>
+    <PT>Utilizador</PT>
+    <EN>User</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>5</ID_Msg>
+    <Tag>5</Tag>
+    <PT>  Permissão </PT>
+    <EN>  User Permission </EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>6</ID_Msg>
+    <Tag>6</Tag>
+    <PT> Limpar </PT>
+    <EN> Clear </EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>7</ID_Msg>
+    <Tag>7</Tag>
+    <PT> Sair </PT>
+    <EN> Close </EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>8</ID_Msg>
+    <Tag>8</Tag>
+    <PT>Autenticação</PT>
+    <EN>Login</EN>
+	<CH></CH>
+  </TableLang>
+
+  <TableLang>
+    <ID_Msg>10</ID_Msg>
+    <Tag>10</Tag>
+    <PT>Operador</PT>
+    <EN>Operator</EN>
+	<CH></CH>
+  </TableLang>  
+  <TableLang>
+    <ID_Msg>11</ID_Msg>
+    <Tag>11</Tag>
+    <PT>Operador</PT>
+    <EN>Operator</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>12</ID_Msg>
+    <Tag>12</Tag>
+    <PT> Supervisão </PT>
+    <EN> Supervision</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>13</ID_Msg>
+    <Tag>13</Tag>
+    <PT>Manutenção</PT>
+    <EN>Maintenance</EN>
+	<CH></CH>
+  </TableLang>
+<TableLang>
+    <ID_Msg>14</ID_Msg>
+    <Tag>14</Tag>
+    <PT>Escolha</PT>
+    <EN>Choose</EN>
+	<CH></CH>
+  </TableLang>
+  
+<TableLang>
+    <ID_Msg>15</ID_Msg>
+    <Tag>15</Tag>
+    <PT>A palavra chave esta incorrecta.</PT>
+    <EN>Incorrect Password</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>16</ID_Msg>
+    <Tag>16</Tag>
+    <PT>Tem de selecionar um utilizador.</PT>
+    <EN>Must select a user.</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>17</ID_Msg>
+    <Tag>17</Tag>
+    <PT>Erro na selecção do operador. O programa irá encerrar.</PT>
+    <EN>Error in user selection. Program shutting down.</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>18</ID_Msg>
+    <Tag>18</Tag>
+    <PT>Selecção do operador feita com sucesso .</PT>
+    <EN>User selection successfully done.</EN>
+	<CH></CH>
+  </TableLang>
+	<!-- Linguagem para a pagina Login-->
+  
+  	<!-- Linguagem para a pagina Manual-->
+	
+<TableLang>
+    <ID_Msg>100</ID_Msg>
+    <Tag>100</Tag>
+    <PT>Cilindros</PT>
+    <EN>Cylinders</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>101</ID_Msg>
+    <Tag>101</Tag>
+    <PT>Escolha Cilindro</PT>
+    <EN>Choose Cylinder</EN>
+	<CH></CH>
+  </TableLang>
+	<TableLang>
+    <ID_Msg>102</ID_Msg>
+    <Tag>102</Tag>
+    <PT>Em Descanso</PT>
+    <EN>In Home</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>103</ID_Msg>
+    <Tag>103</Tag>
+    <PT>Em Trabalho</PT>
+    <EN>In Work</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>104</ID_Msg>
+    <Tag>104</Tag>
+    <PT>Mover Descanso</PT>
+    <EN>Go Home</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>105</ID_Msg>
+    <Tag>105</Tag>
+    <PT>Mover Trabalho</PT>
+    <EN>Go Work</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>106</ID_Msg>
+    <Tag>106</Tag>
+    <PT>Esvaziar</PT>
+    <EN>Empty</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>107</ID_Msg>
+    <Tag>107</Tag>
+    <PT>Encher</PT>
+    <EN>Fill</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>108</ID_Msg>
+    <Tag>108</Tag>
+    <PT>Estado</PT>
+    <EN>State</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>109</ID_Msg>
+    <Tag>109</Tag>
+    <PT>Espera Comando</PT>
+    <EN>Waiting Comand</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>110</ID_Msg>
+    <Tag>110</Tag>
+    <PT>A Executar</PT>
+    <EN>Running</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>111</ID_Msg>
+    <Tag>111</Tag>
+    <PT>Em Erro</PT>
+    <EN>In Error</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>112</ID_Msg>
+    <Tag>112</Tag>
+    <PT>Espera selecção</PT>
+    <EN>Wait Selection</EN>
+	<CH></CH>
+  </TableLang>
+  
+  
+  <TableLang>
+    <ID_Msg>120</ID_Msg>
+    <Tag>120</Tag>
+    <PT>Eixos</PT>
+    <EN>Axis</EN>
+	<CH></CH>
+  </TableLang>
+   <TableLang>
+    <ID_Msg>121</ID_Msg>
+    <Tag>121</Tag>
+    <PT>Escolha Eixo</PT>
+    <EN>Choose Axis</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>122</ID_Msg>
+    <Tag>122</Tag>
+    <PT>Estado</PT>
+    <EN>State</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>123</ID_Msg>
+    <Tag>123</Tag>
+    <PT>Posição Atual</PT>
+    <EN>Current Position</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>124</ID_Msg>
+    <Tag>124</Tag>
+    <PT>Velocidade Atual</PT>
+    <EN>Current Velocity</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>125</ID_Msg>
+    <Tag>125</Tag>
+    <PT>Grava Posição</PT>
+    <EN>Save Position</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>126</ID_Msg>
+    <Tag>126</Tag>
+    <PT>Valor Erro</PT>
+    <EN>Error Value</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>127</ID_Msg>
+    <Tag>127</Tag>
+    <PT>Abilitar</PT>
+    <EN>Enable</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>128</ID_Msg>
+    <Tag>128</Tag>
+    <PT>ID</PT>
+    <EN>ID</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>129</ID_Msg>
+    <Tag>129</Tag>
+    <PT>Posição</PT>
+    <EN>Position</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>130</ID_Msg>
+    <Tag>130</Tag>
+    <PT>Velocidade/Acel</PT>
+    <EN>Velocity/Accel</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>131</ID_Msg>
+    <Tag>131</Tag>
+    <PT>Inc </PT>
+    <EN>Jog +</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>132</ID_Msg>
+    <Tag>132</Tag>
+    <PT>Dec</PT>
+    <EN>Jog -</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>133</ID_Msg>
+    <Tag>133</Tag>
+    <PT>Mover p/Posição</PT>
+    <EN>Move Position</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>134</ID_Msg>
+    <Tag>134</Tag>
+    <PT>Posição Casa</PT>
+    <EN>Homing</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>135</ID_Msg>
+    <Tag>135</Tag>
+    <PT>Reinicializar</PT>
+    <EN>Reset</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>136</ID_Msg>
+    <Tag>136</Tag>
+    <PT>Espera Selecção</PT>
+    <EN>Wait Selection</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>137</ID_Msg>
+    <Tag>137</Tag>
+    <PT>Em movimento</PT>
+    <EN>Moving</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>138</ID_Msg>
+    <Tag>138</Tag>
+    <PT>Em Erro</PT>
+    <EN>Error</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>139</ID_Msg>
+    <Tag>139</Tag>
+    <PT>Parado</PT>
+    <EN>Stop</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>140</ID_Msg>
+    <Tag>140</Tag>
+    <PT>Em Posição</PT>
+    <EN>in Position</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>141</ID_Msg>
+    <Tag>141</Tag>
+    <PT>A Executar Posição Casa.</PT>
+    <EN>Executing Homing.</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>142</ID_Msg>
+    <Tag>142</Tag>
+    <PT>Chegou ao Limite</PT>
+    <EN>Limit Reached</EN>
+	<CH></CH>
+  </TableLang>
+  
+  
+  <TableLang>
+    <ID_Msg>150</ID_Msg>
+    <Tag>150</Tag>
+    <PT>Scanner</PT>
+    <EN>Scanner</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>151</ID_Msg>
+    <Tag>151</Tag>
+    <PT>Escolha Scanner</PT>
+    <EN>Choose Scanner</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>152</ID_Msg>
+    <Tag>152</Tag>
+    <PT>Dados Lidos</PT>
+    <EN>Data Read</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>153</ID_Msg>
+    <Tag>153</Tag>
+    <PT>Ler</PT>
+    <EN>Read</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>154</ID_Msg>
+    <Tag>154</Tag>
+    <PT>Erro</PT>
+    <EN>Error</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>155</ID_Msg>
+    <Tag>155</Tag>
+    <PT>Conectado</PT>
+    <EN>Connected</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>156</ID_Msg>
+    <Tag>156</Tag>
+    <PT>Disconectado</PT>
+    <EN>Disconnected</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>157</ID_Msg>
+    <Tag>157</Tag>
+    <PT>Em leitura</PT>
+    <EN>Reading</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>158</ID_Msg>
+    <Tag>158</Tag>
+    <PT>Preparado</PT>
+    <EN>Ready</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>159</ID_Msg>
+    <Tag>159</Tag>
+    <PT>Terminado</PT>
+    <EN>Done</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>160</ID_Msg>
+    <Tag>160</Tag>
+    <PT>Estado</PT>
+    <EN>State</EN>
+	<CH></CH>
+  </TableLang>
+
+  
+  <TableLang>
+    <ID_Msg>170</ID_Msg>
+    <Tag>170</Tag>
+    <PT>Precisa preencher a informção de forma correcta. Posição, velocidade e aceleração tem de estar preenchidas.</PT>
+    <EN>Need To fill the needed information correctly. Position, Velocity and Aceleration must be filled.</EN>
+	<CH></CH>
+  </TableLang>
+    <!-- Linguagem para a pagina Manual-->
+</LANG>
