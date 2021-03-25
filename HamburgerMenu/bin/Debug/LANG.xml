@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<LANG>
+  <xs:schema id="LANG" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="LANG" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TableLang">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_Msg" type="xs:string" minOccurs="0" />
+                <xs:element name="Tag" type="xs:string" minOccurs="0" />
+                <xs:element name="PT" type="xs:string" minOccurs="0" />
+                <xs:element name="EN" type="xs:string" minOccurs="0" />
+				<xs:element name="ES" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TableLang>
+    <ID_Msg>1</ID_Msg>
+    <Tag>1</Tag>
+    <PT> Selecionar Utilizador  </PT>
+    <EN>  User Selection </EN>
+    <CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>2</ID_Msg>
+    <Tag>2</Tag>
+    <PT>Palavra Chave</PT>
+    <EN>Password</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>3</ID_Msg>
+    <Tag>3</Tag>
+    <PT>Entrar</PT>
+    <EN>Login</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>4</ID_Msg>
+    <Tag>4</Tag>
+    <PT>Utilizador</PT>
+    <EN>User</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>5</ID_Msg>
+    <Tag>5</Tag>
+    <PT>  Permissão </PT>
+    <EN>  User Permission </EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>6</ID_Msg>
+    <Tag>6</Tag>
+    <PT> Limpar </PT>
+    <EN> Clear </EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>7</ID_Msg>
+    <Tag>7</Tag>
+    <PT> Sair </PT>
+    <EN> Close </EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>8</ID_Msg>
+    <Tag>8</Tag>
+    <PT>Autenticação</PT>
+    <EN>Login</EN>
+	<CH></CH>
+  </TableLang>
+
+  <TableLang>
+    <ID_Msg>10</ID_Msg>
+    <Tag>10</Tag>
+    <PT>Operador</PT>
+    <EN>Operator</EN>
+	<CH></CH>
+  </TableLang>  
+  <TableLang>
+    <ID_Msg>11</ID_Msg>
+    <Tag>11</Tag>
+    <PT>Operador</PT>
+    <EN>Operator</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>12</ID_Msg>
+    <Tag>12</Tag>
+    <PT> Supervisão </PT>
+    <EN> Supervision</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>13</ID_Msg>
+    <Tag>13</Tag>
+    <PT>Manutenção</PT>
+    <EN>Maintenance</EN>
+	<CH></CH>
+  </TableLang>
+<TableLang>
+    <ID_Msg>14</ID_Msg>
+    <Tag>14</Tag>
+    <PT>Escolha</PT>
+    <EN>Choose</EN>
+	<CH></CH>
+  </TableLang>
+  
+<TableLang>
+    <ID_Msg>15</ID_Msg>
+    <Tag>15</Tag>
+    <PT>A palavra chave esta incorrecta.</PT>
+    <EN>Incorrect Password</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>16</ID_Msg>
+    <Tag>16</Tag>
+    <PT>Tem de selecionar um utilizador.</PT>
+    <EN>Must select a user.</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>17</ID_Msg>
+    <Tag>17</Tag>
+    <PT>Erro na selecção do operador. O programa irá encerrar.</PT>
+    <EN>Error in user selection. Program shutting down.</EN>
+	<CH></CH>
+  </TableLang>
+  <TableLang>
+    <ID_Msg>18</ID_Msg>
+    <Tag>18</Tag>
+    <PT>Selecção do operador feita com sucesso .</PT>
+    <EN>User selection successfully done.</EN>
+	<CH></CH>
+  </TableLang>
+  
+  
+</LANG>

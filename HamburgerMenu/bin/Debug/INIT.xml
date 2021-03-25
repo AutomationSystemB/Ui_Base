@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="yes"?>
+<INIT>
+  <xs:schema id="INIT" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="INIT" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Init">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DEFAULT_LANGUAGE" type="xs:string" minOccurs="0" />                
+                <xs:element name="WS_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="STATION_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="SUB_WS_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="DATASOURCE" type="xs:string" minOccurs="0" />
+				<!--Parametros de abilitação de funcionalidades -->
+                <xs:element name="DayCounter" type="xs:string" minOccurs="0" />
+				<xs:element name="TotalCounter" type="xs:string" minOccurs="0" />
+				<xs:element name="PuttyPaste" type="xs:string" minOccurs="0" />
+				<xs:element name="Screwdriver" type="xs:string" minOccurs="0" />
+				<xs:element name="CIM" type="xs:string" minOccurs="0" />
+				<xs:element name="LoginOnstart" type="xs:string" minOccurs="0" />
+				<!--Parametros de configuração de  hardware -->
+				<xs:element name="COMUNICATION" type="xs:string" minOccurs="0" />
+				<xs:element name="BK_PORT" type="xs:string" minOccurs="0" />
+                <xs:element name="BK_IP_ADDR" type="xs:string" minOccurs="0" />
+                <xs:element name="DALSA_IP_ADDR" type="xs:string" minOccurs="0" />
+				<xs:element name="CIMID" type="xs:string" minOccurs="0" />
+				<xs:element name="DesouterCom" type="xs:string" minOccurs="0" />
+				<xs:element name="ScannerCom" type="xs:string" minOccurs="0" />
+				<xs:element name="EpsonPrinter" type="xs:string" minOccurs="0" />
+				<!--Escolhas disponiveis menu -->
+				<xs:element name="Auto" type="xs:string" minOccurs="0" />
+				<xs:element name="Login" type="xs:string" minOccurs="0" />
+				<xs:element name="Manual" type="xs:string" minOccurs="0" />
+				<xs:element name="About" type="xs:string" minOccurs="0" />
+				<xs:element name="Configurations" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Init>
+    <DEFAULT_LANGUAGE>PT</DEFAULT_LANGUAGE>
+    <WS_ID>0000</WS_ID>
+    <STATION_NAME>UI_Base</STATION_NAME>
+    <SUB_WS_ID>1</SUB_WS_ID>
+    <DATASOURCE>XML</DATASOURCE>
+	<!--Escolhas disponiveis menu -->
+	<Auto>1</Auto>
+	<Login>1</Login>
+	<Manual>1</Manual>
+	<About>0</About>
+	<Configurations>1</Configurations>
+	<!--Parametros de abilitação de funcionalidades -->
+    <DayCounter>1</DayCounter>
+	<TotalCounter>1</TotalCounter>
+	<PuttyPaste>1</PuttyPaste>
+	<Screwdriver>0</Screwdriver>
+    <CIM>0</CIM>
+	<LoginOnstart>0</LoginOnstart>
+	<!--Parametros de configuração de  hardware -->
+	<COMUNICATION>1</COMUNICATION>
+    <DALSA_IP_ADDR>192.168.1.20</DALSA_IP_ADDR>
+	<BK_IP_ADDR>172.16.17.1</BK_IP_ADDR> 
+	<BK_PORT>502</BK_PORT>  	
+	<CIMID>ASSY-RICM-1</CIMID>
+	<DesouterCom>Com2</DesouterCom>
+	<ScannerCom>Com1</ScannerCom>
+	<EpsonPrinter>192.168.1.11</EpsonPrinter>
+  </Init>
+</INIT>
